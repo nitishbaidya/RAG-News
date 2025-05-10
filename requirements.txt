@@ -1,6 +1,7 @@
 langchain
 langchain-pinecone
 langchain-community
+langchain-huggingface
 langchain-nvidia-ai-endpoints
 feedparser
 pinecone
