@@ -38,7 +38,7 @@ class Gemma3LLM:
             context = self._format_documents_with_limit(docs, MAX_CONTEXT_SIZE)
             
             # Create a prompt for the RAG query
-            prompt = f"""Answer the following question about UK public policy based on the provided context. 
+            prompt = f"""Answer the following question in detail about news from UK based on the provided context. 
             If the question cannot be answered based on the context, simply state that you don't have enough information.
             
             Context:
@@ -85,7 +85,7 @@ class Gemma3LLM:
             context = self._format_documents_with_limit(sample_docs, MAX_CONTEXT_SIZE)
             
             # Create a prompt for topic extraction
-            prompt = f"""Below are snippets from various news articles about UK public policy and politics.
+            prompt = f"""Below are snippets from various news articles about news from UK.
             
             Articles:
             {context}
