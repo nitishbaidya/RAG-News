@@ -87,7 +87,7 @@ def main():
             status_text.text("Checking for existing articles...")
             progress_bar.progress(20)
             
-            with st.spinner("Fetching and processing articles..."):
+            with st.spinner("Fetching and processing articles...(it may take a while!)"):
                 start_time = time.time()
                 num_articles = rag.fetch_and_store_articles()
                 end_time = time.time()
