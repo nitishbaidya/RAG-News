@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-nvidia-ai-endpoints
+feedparser
+pinecone
+beautifulsoup4
+python-dotenv
+requests
+streamlit
+lxml 
